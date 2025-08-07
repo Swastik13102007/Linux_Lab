@@ -52,7 +52,7 @@ cp -rv myfolder/ backup_folder/    # Copy a folder recursively and verbosely
 ```
 
 ---
-![Image](./cp.png)
+![Image](./2.png)
 
 ## 3. `touch` – Create Empty Files or Update Timestamps
 

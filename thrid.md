@@ -33,7 +33,7 @@ rm -rf myfolder/        # Forcefully delete a folder and everything inside
 
 ## 2. `cp` – Copy Files and Directories
 
-### Syntax:
+### Syntxxax:
 
 ```bash
 cp [options] source destination
@@ -44,7 +44,7 @@ cp [options] source destination
 * `-r` : Copy directories recursively.
 * `-v` : Verbose output, shows files as they are copied.
 
-### Example:
+### Examdcsdcple:
 
 ```bash
 cp file1.txt backup.txt             # Copy a file
