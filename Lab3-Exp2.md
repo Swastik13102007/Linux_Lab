@@ -226,6 +226,10 @@ hello my name is none of your thing i dont care
 * **Run multiple commands**:
 
 ```bash
+mkdir test && cd test && touch hii.txt
+
+hii.txt
+```
 
 
 
