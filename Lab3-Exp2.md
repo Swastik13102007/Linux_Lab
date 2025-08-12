@@ -196,6 +196,41 @@ man ls
 ### `find` – Locate Files
 
 ```bash
+find . -name "*.txt"
+```
+---
+
+### `grep` – Search Inside Files
+
+```bash
+grep "Hii" data.txt
+
+hello my name is none of your thing i dont care
+```
+
+---
+
+## ✅ 6. **Helpful Shortcuts**
+
+| Shortcut   | Action                      |
+| ---------- | --------------------------- |
+| `Tab`      | Auto-complete files/folders |
+| `↑ / ↓`    | Browse command history      |
+| `CTRL + C` | Stop a running command      |
+| `CTRL + L` | Clear screen                |
+
+---
+
+## ✅ 7. **Bonus: Chaining Commands**
+
+* **Run multiple commands**:
+
+```bash
+
+
+
+
+
 
 
 
