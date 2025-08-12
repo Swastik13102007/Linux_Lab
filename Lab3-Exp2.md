@@ -82,7 +82,7 @@ d-----        12-08-2025     18:23                projects
 Creates an empty file.
 
 ```bash
-touch file.txt
+touch data.txt
 ```
 
 ---
@@ -90,7 +90,7 @@ touch file.txt
 ### `cp` – Copy Files or Directories
 
 ```bash
-cp source.txt file.
+cp course.txt file.
 ```
 
 * Copy folder:
@@ -104,10 +104,98 @@ cp -r projects folder10
 ### `mv` – Move or Rename Files
 
 ```bash
-mv file.txt source.txt
+mv data.txt source.txt
 
 ```bash
-mv file.txt ~//     # Move file
+mv data.txt ~/Worksheet/     # Move file
+```
+
+---
+
+### `rm` – Remove Files
+
+```bash
+rm data.txt
+rm -r projects
+```
+
+⚠️ **Be careful!** There is no undo.
+
+---
+## ✅ 3. **File Viewing & Editing**
+
+### `cat` – View File Contents
+
+Displays content in terminal.
+
+```bash
+cat data.txt
+```bash
+cat  data.txt
+g;ertn
+ret
+nrn;rntn
+n
+enr
+Ne
+eltn
+
+
+ebnetknetnetl
+
+```
+
+---
+### `nano` – Edit Files in Terminal
+
+A basic terminal-based text editor.
+
+```bash
+nano data.txt
+---
+
+### `clear` – Clears the Terminal
+
+```bash
+clear
+```
+---
+
+## ✅ 4. **System Commands**
+
+### `echo` – Print Text
+
+Useful for debugging or scripting.
+
+```bash
+echo  "Hello, World!"
+Hello world!
+```
+
+---
+
+### `whoami` – Show Current User
+
+```bash
+whoami
+
+SWASTIK SUHANE
+```
+
+---
+
+### `man` – Manual for Any Command
+
+```bash
+man ls
+```
+---
+
+## ✅ 5. **Searching and Finding**
+
+### `find` – Locate Files
+
+```bash
 
 
 
