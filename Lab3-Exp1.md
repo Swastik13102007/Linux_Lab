@@ -1,25 +1,26 @@
 # Basic linux commands
 
-'''bash
+```bash
 >>pwd
+```
 
-
+```
 output example:
-
+```
 
 /d/UPES/Linux_Lab
 
 ## Is command in linux
 
-'''bash
+```bash
 >>Is
-
+```
 ### ls flags
 
-'''bash
+```bash
 >> ls -a
-
-
+```
+![Image](./1.image.png)
 
 
 
