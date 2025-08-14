@@ -46,12 +46,12 @@ cp -p lab1.txt backup.txt
 mv lab1.txt lab11.txt
 
 # Move file to another directory
-mv lab11.txt C:\Users\SWASTIK SUHANE\Downloads\Linux lab\lab
+mv lab11.txt "/home/mayank13/labfinal"
 
 # Move and overwrite without prompt
 mv -f linux11.txt /lab2.txt/
 ```
-![Image](./mv.png)t
+![Image](./mv.png)
 ---
 
 ### **`rm`** – Remove Files and Directories
@@ -69,6 +69,7 @@ rm -r lab/
 # Force remove without prompt
 rm -rf lab/
 ```
+![Image](./rm.png)
 ---
 
 ### **`cat`** – View or Concatenate Files
@@ -83,6 +84,7 @@ cat lab.txt lab2.txt > lab11.txt
 # Display file with line numbers
 cat -n lab11.txt
 ```
+![Image](./cat.png)
 
 ---
 
@@ -95,6 +97,11 @@ less lab11.txt
 # b → previous page
 # q → quit
 ```
+![Image](./less.png)
+
+![Image](./less1.png)
+
+
 ---
 
 ### **`head`** – Show First Lines of a File
@@ -106,7 +113,7 @@ head lab11.txt
 # First 20 lines
 head -n 20 lab11.txt
 ```
-
+![Image](./head.png)
 ---
 
 ### **`tail`** – Show Last Lines of a File
@@ -120,7 +127,7 @@ tail -n 15 lab11.txt
 # Monitor file changes in real-time
 tail -f lab11.txt
 ```
-
+![Image](./tail.png)
 ---
 ## **2. File Permissions and Ownership**
 
@@ -165,13 +172,13 @@ drwxr-xr-x 1 SWASTIK SUHANE 197121      0 Aug 12 20:48  projects/
 
 ```bash
 # Symbolic method
-chmod u+x file.sh   # Add execute for owner
-chmod g-w file.txt  # Remove write for group
-chmod o+r file.txt  # Add read for others
+chmod u+x lab11.sh   # Add execute for owner
+chmod g-w lab11.txt  # Remove write for group
+chmod o+r lab11.txt  # Add read for others
 
 # Numeric method (r=4, w=2, x=1)
-chmod 755 file.sh   # rwxr-xr-x
-chmod 644 file.txt  # rw-r--r--
+chmod 755 lab11.sh   # rwxr-xr-x
+chmod 644 lab11.txt  # rw-r--r--
 ```
 
 ---
@@ -202,16 +209,16 @@ sudo chgrp developers lab11.txt
 
 ```bash
 # Find by name
-find /c/Users/SWASTIK SUHANE/Downloads/Linux lab -name "lab11.txt"
+find /home/mayank13/labfinal -name "lab11.txt"
 
 # Find by extension
-find /c/Users/SWASTIK SUHANE/Downloads/Linux lab -name "*.log"
+find /home/mayank13/labfinal -name "*.log"
 
 # Find by size (>100MB)
 find /path -size +100M
 
 # Find and delete
-find /c/Users/SWASTIK SUHANE/Downloads/Linux lab -name "*.tmp" -delete
+find /home/mayank13/labfinal -name "*.tmp" -delete
 ```
 
 ---
@@ -226,13 +233,30 @@ grep "error" lab11.txt
 grep -i "error" lab11.txt
 
 # Recursive search in directory
-grep -r "TODO" /lab//c/Users/SWASTIK SUHANE/Downloads/Linux lab
+grep -r "TODO" //home/mayank13/labfinal 
 
 # Show line numbers
 grep -n "warning" lab11.txt
 ```
+![Image](./grep.png)
 
 ---
+
+### **`tar`** – Archive Files
+
+```bash
+# Create archive
+tar -cvf archive.tar lab.txt lab2.txt
+
+# Extract archive
+tar -xvf archive.tar
+
+# View archive contents
+tar -tvf archive.tar
+```
+![Image](./tar.png)
+---
+
 
 
 
