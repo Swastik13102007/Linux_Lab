@@ -18,7 +18,7 @@ touch exixting.txt
 touch lab1.txt lab2.txt
 
 ```
-![Image](./touch1.png);
+![Image](./touch..png);
 ---
 
 ### **`cp`** – Copy Files and Directories

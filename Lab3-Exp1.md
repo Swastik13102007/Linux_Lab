@@ -20,7 +20,7 @@ output example:
 ```bash
 >> ls -a
 ```
-![Image](./1.image.png)
+![Image](./.ls.png)
 
 
 
