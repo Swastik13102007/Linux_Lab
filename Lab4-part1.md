@@ -220,7 +220,7 @@ find /path -size +100M
 # Find and delete
 find /home/mayank13/labfinal -name "*.tmp" -delete
 ```
-
+![Image](./find.png)
 ---
 
 ### **`grep`** – Search Text in Files
@@ -255,6 +255,30 @@ tar -xvf archive.tar
 tar -tvf archive.tar
 ```
 ![Image](./tar.png)
+---
+
+### **`gzip` / `gunzip`** – Compress & Decompress
+
+```bash
+# Compress
+gzip lab11.txt  # Creats lab11.txt.gz
+
+# Decompress
+gunzip lab11.txt.gz
+```
+![Image](./gzip.png)
+---
+
+### **`ln`** – Create Links
+
+```bash
+# Hard link
+ln lab.txt lab2.txt
+
+# Symbolic (soft) link
+ln -s /path/to/original symlinkname
+```
+
 ---
 
 
