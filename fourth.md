@@ -54,8 +54,8 @@ cp -rv myfolder/ backup_folder/    # Copy a folder recursively and verbosely
 ```
 
 ---
-![Image](./4.png)
 
+![Image](./4.png)
 ## 3. `touch` – Create Empty Files or Update Timestamps
 
 ### Syntax:
