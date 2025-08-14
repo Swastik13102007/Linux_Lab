@@ -4,9 +4,11 @@
 >>pwd
 ```
 
-```
-output example:
-```
+```bash
+
+
+## output example:
+```bash
 
 /d/UPES/Linux_Lab
 
@@ -21,6 +23,3 @@ output example:
 >> ls -a
 ```
 ![Image](./.ls.png)
-
-
-
