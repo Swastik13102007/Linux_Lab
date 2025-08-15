@@ -22,4 +22,4 @@
 ```bash
 >> ls -a
 ```
-![Image](./.ls.png)
+![Image](./ls.png)
