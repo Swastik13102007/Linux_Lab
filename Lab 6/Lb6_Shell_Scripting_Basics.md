@@ -151,6 +151,12 @@ do
 done
 ```
 ![Image](./F8.png)
+
+![Image](./F9.png)
+
+![Image](./F11.png)
+
+![Image](./F12.png)
 ---
 
 
