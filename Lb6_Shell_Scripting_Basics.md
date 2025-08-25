@@ -108,6 +108,52 @@ Operators:
 ![Image](./F5.png)
 ---
 
+## 5. 🔹 Loops
+
+### For loop
+
+```bash
+for i in 1 2 3 4 5
+do
+    echo "Number: $i"
+done
+```
+
+Or use a range:
+
+```bash
+for i in {1..5}
+do
+    echo "Iteration $i"
+done
+```
+
+### While loop
+```bash
+count=1
+while [ $count -le 5 ]
+do
+    echo "Count: $count"
+    ((count++))   # increment
+done
+```
+
+### Until loop
+
+Runs until condition becomes true.
+
+```bash
+x=1
+until [ $x -gt 5 ]
+do
+    echo "Value: $x"
+    ((x++))
+done
+```
+![Image](./F8.png)
+---
+
+
 ## 6. 🔹 Functions
 
 Encapsulate reusable code.
