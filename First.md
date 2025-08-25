@@ -50,9 +50,9 @@ cp [options] source destination
 cp file1.txt backup.txt             # Copy a file
 cp -rv myfolder/ backup_folder/    # Copy a folder recursively and verbosely
 ```
-
----
 ![Image](./2.png)
+---
+
 
 ## 3. `touch` – Create Empty Files or Update Timestamps
 
