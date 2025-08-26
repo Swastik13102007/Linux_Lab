@@ -53,7 +53,7 @@ Output
 
 sizes
 
-###🔹 `cd` – Change Directory
+### 🔹 `cd` – Change Directory
 
 Moves into a directory.
 
@@ -71,7 +71,7 @@ cd - → Switch to previous directory
 
 ✅ 2. 🛠️ File and Directory Management
 
-###🔹 `mkdir` – Make Directory
+### 🔹 `mkdir` – Make Directory
 
 Creates a new folder.
 
@@ -83,7 +83,7 @@ mkdir newone
 
 
 
-###🔹 `touch` – Create File
+### 🔹 `touch` – Create File
 
 Creates an empty file.
 
@@ -95,7 +95,7 @@ touch newone.txt
 
 Useful for quickly generating files to edit later.
 
-###🔹 `cp` – Copy Files or Directories
+### 🔹 `cp` – Copy Files or Directories
 
 ```bash
 cp newone.txt newone2
@@ -111,7 +111,7 @@ cp -r newone newone2
 
 📌 -r is needed when copying directories recursively.
 
-###🔹 `mv` – Move or Rename Files
+### 🔹 `mv` – Move or Rename Files
 
 ```bash
 mv newone.txt newone2.txt
@@ -122,7 +122,7 @@ mv newone2.txt ~/Worksheet/     # Move file
 
 ---
 
-###🔹 `rm` – Remove Files
+### 🔹 `rm` – Remove Files
 
 ```bash
 rm newone2.txt
@@ -136,7 +136,7 @@ rm -r newone
 ---
 ✅ 3. 📄 File Viewing & Editing
 
-###🔹 `cat` – View File Contents
+### 🔹 `cat` – View File Contents
 
 Displays content in terminal.
 
@@ -154,7 +154,7 @@ Hii how are you
 Great for reading small files directly in terminal.
 
 
-###🔹 `nano` – Edit Files in Terminal
+### 🔹 `nano` – Edit Files in Terminal
 
 A basic terminal-based text editor.
 
@@ -162,7 +162,7 @@ A basic terminal-based text editor.
 nano newone2.txt
 ---
 
-###🔹 `clear` – Clears the Terminal
+### 🔹 `clear` – Clears the Terminal
 
 ```bash
 clear
@@ -176,7 +176,7 @@ clear
 
 ✅ 4. 👤 System Commands
 
-###🔹 `echo` – Print Text      
+### 🔹 `echo` – Print Text      
 
 Useful for debugging or scripting.
 
@@ -187,7 +187,7 @@ Hello world!
 ![Image](./F519.png)
 ---
 
-###🔹 `whoami` – Show Current User
+### 🔹 `whoami` – Show Current User
 
 ```bash
 whoami
@@ -197,7 +197,7 @@ mayank13
 ![Image](./F520.png)
 ---
 
-###🔹 `man` – Manual for Any Command
+### 🔹 `man` – Manual for Any Command
 
 ```bash
 man ls
@@ -209,7 +209,7 @@ man ls
 
 ✅ 5. 🔍 Searching and Finding
 
-###🔹 `find` – Locate Files
+### 🔹 `find` – Locate Files
 
 ```bash
 find . -name "*newone2.txt"
@@ -219,7 +219,7 @@ find . -name "*newone2.txt"
 
 🧠 Searches recursively from the current directory.
 
-###🔹 `grep` – Search Inside Files
+### 🔹 `grep` – Search Inside Files
 
 ```bash
 grep "Hii" newone2.txt
