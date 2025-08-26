@@ -5,9 +5,9 @@ Master essential terminal commands for navigation, file management, system monit
 
 ---
 
-✅ 1. 📂 Navigation Commands
+✅ 1. 📂 **Navigation Commands**
 
-🔹 `pwd` – Print Working Directory
+### 🔹 `pwd` – Print Working Directory
 
 Shows the current location in the filesystem.
 
