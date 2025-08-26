@@ -266,6 +266,24 @@ newone3.txt
 --- 
 
 
+| 🖥️ Command | 📌 Description         | 🔖 Badge     |
+| ----------- | ---------------------- | ------------ |
+| `pwd`       | Show current directory | ✅ Essential  |
+| `ls`        | List files & folders   | ✅ Essential  |
+| `cd`        | Change directory       | ✅ Essential  |
+| `mkdir`     | Create a folder        | 💡 Useful    |
+| `touch`     | Create a file          | 💡 Useful    |
+| `cp`        | Copy files/folders     | 💡 Useful    |
+| `mv`        | Move / Rename files    | 💡 Useful    |
+| `rm`        | Delete files/folders   | ⚠️ Dangerous |
+| `cat`       | View file contents     | 💡 Useful    |
+| `nano`      | Edit file in terminal  | 💡 Useful    |
+| `clear`     | Clear terminal         | ✅ Essential  |
+| `echo`      | Print text             | 💡 Useful    |
+| `whoami`    | Show current user      | ✅ Essential  |
+| `man`       | Show manual            | 💡 Useful    |
+| `find`      | Search for files       | 💡 Useful    |
+| `grep`      | Search inside files    | 💡 Powerful  |
 
 
 
