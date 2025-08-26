@@ -4,7 +4,7 @@ Shell scripting allows you to **automate tasks** in Linux/Unix by writing comman
 
 ---
 
-### 🔹 1.** What is a Shell Script?**
+### 🔹 1. **What is a Shell Script?**
 📌 A **shell** is a command-line interpreter (e.g., `bash`, `zsh`, `sh`).
 📌 A **shell script** is a text file with a series of commands.
 📌 File usually has **`.sh`** extension, though not mandatory.
