@@ -5,7 +5,7 @@ Master essential terminal commands for navigation, file management, system monit
 
 ---
 
-✅ 1. 📂 **Navigation Commands**
+## ✅ 1. 📂 **Navigation Commands**
 
 ### 🔹 `pwd` – Print Working Directory
 
@@ -69,7 +69,7 @@ cd ~ → Go to home directory
 cd - → Switch to previous directory
 ---
 
-✅ 2. 🛠️ File and Directory Management
+## ✅ 2. 🛠️ File and Directory Management
 
 ### 🔹 `mkdir` – Make Directory
 
@@ -134,7 +134,7 @@ rm -r newone
 ⚠️ Warning: There’s no “Recycle Bin” – use cautiously!
 
 ---
-✅ 3. 📄 File Viewing & Editing
+## ✅ 3. 📄 File Viewing & Editing
 
 ### 🔹 `cat` – View File Contents
 
@@ -174,7 +174,7 @@ clear
 
 ✨ Or simply press CTRL + L
 
-✅ 4. 👤 System Commands
+## ✅ 4. 👤 System Commands
 
 ### 🔹 `echo` – Print Text      
 
@@ -207,7 +207,7 @@ man ls
 
 📌 Use q to quit the manual.
 
-✅ 5. 🔍 Searching and Finding
+## ✅ 5. 🔍 Searching and Finding
 
 ### 🔹 `find` – Locate Files
 
@@ -231,7 +231,7 @@ hello my name is none of your thing i dont care
 
 🔍 Powerful tool for text filtering or debugging.
 
-✅ 6. ⚡ Helpful Shortcuts
+## ✅ 6. ⚡ Helpful Shortcuts
 
 |🔑 Shortcut   | 📝 Action                      |
 | ---------- | --------------------------- |
@@ -243,7 +243,7 @@ hello my name is none of your thing i dont care
 
 ---
 
-✅ 7. ⚙️ Bonus: Chaining Commands
+## ✅ 7. ⚙️ Bonus: Chaining Commands
 
 Use && to run multiple commands in sequence:
 
