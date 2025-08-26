@@ -27,6 +27,8 @@ Lists files and folders in the current directory.
 ls
 ```bash
 
+Output
+
     Directory: mayank13@ubuntu/home/mayank13
 
 
