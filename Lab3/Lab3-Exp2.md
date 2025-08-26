@@ -15,7 +15,7 @@ pwd
 📌 Output example:
 
 ```
-C:\Users\SWASTIK SUHANE\Downloads\Linux lab
+mayank13@ubuntu
 ```
 ---
 
@@ -27,23 +27,13 @@ Lists files and folders in the current directory.
 ls
 ```bash
 
-    Directory: C:\Users\SWASTIK SUHANE\Downloads\Linux lab
+    Directory: mayank13@ubuntu/home/mayank13
 
 
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        07-08-2025     11:20                Lab1
--a----        12-08-2025     13:26          31080 1.image.png
--a----        07-08-2025     11:33         542740 2.png
--a----        07-08-2025     18:41         281590 4.png
--a----        07-08-2025     10:51         311400 cp.png
--a----        07-08-2025     11:37           2339 First.md
--a----        12-08-2025     13:07           2342 fourth.md
--a----        12-08-2025     13:27            216 Lab3-Exp1.md
--a----        12-08-2025     13:35            618 Lab3-Exp2.md
--a----        07-08-2025     11:20         524656 Screenshot 2025-08-07 112023.png
--a----        07-08-2025     11:39           2401 thrid.md
+
 ```
+![Image](./F515.png)
+
 ---
 
 ### `cd` – Change Directory
@@ -52,7 +42,7 @@ Moves into a directory.
 
 ```bash
 cd projects
-PS C:\Users\SWASTIK SUHANE\Downloads\Linux lab\projects> 
+mayank13@ubuntu
 ```
 
 ---
@@ -64,25 +54,17 @@ PS C:\Users\SWASTIK SUHANE\Downloads\Linux lab\projects>
 Creates a new folder.
 
 ```bash
-mkdir projects 
+mkdir newone 
 ```bash
-  Directory: C:\Users\SWASTIK SUHANE\Downloads\Linux lab
+  Directory: mayank13@ubuntu
 
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        12-08-2025     18:23                projects
-
-```
-
----
 
 ### `touch` – Create File
 
 Creates an empty file.
 
 ```bash
-touch data.txt
+touch newone.txt
 ```
 
 ---
@@ -90,13 +72,13 @@ touch data.txt
 ### `cp` – Copy Files or Directories
 
 ```bash
-cp course.txt file.
+cp newone.txt newone2
 ```
 
 * Copy folder:
 
 ```bash
-cp -r projects folder10
+cp -r newone newone2
 ```
 
 ---
@@ -104,10 +86,10 @@ cp -r projects folder10
 ### `mv` – Move or Rename Files
 
 ```bash
-mv data.txt source.txt
+mv newone.txt newone2.txt
 
 ```bash
-mv data.txt ~/Worksheet/     # Move file
+mv newone2.txt ~/Worksheet/     # Move file
 ```
 
 ---
@@ -115,9 +97,11 @@ mv data.txt ~/Worksheet/     # Move file
 ### `rm` – Remove Files
 
 ```bash
-rm data.txt
-rm -r projects
+rm newone2.txt
+rm -r newone
 ```
+![Image](./F516.png)
+---
 
 ⚠️ **Be careful!** There is no undo.
 
@@ -129,29 +113,21 @@ rm -r projects
 Displays content in terminal.
 
 ```bash
-cat data.txt
+cat newone2.txt
+
+Hii how are you
+
 ```bash
-cat  data.txt
-g;ertn
-ret
-nrn;rntn
-n
-enr
-Ne
-eltn
-
-
-ebnetknetnetl
 
 ```
-
+![Image](./F518.png)
 ---
 ### `nano` – Edit Files in Terminal
 
 A basic terminal-based text editor.
 
 ```bash
-nano data.txt
+nano newone2.txt
 ---
 
 ### `clear` – Clears the Terminal
@@ -159,6 +135,7 @@ nano data.txt
 ```bash
 clear
 ```
+![Image](./F517.png)
 ---
 
 ## ✅ 4. **System Commands**
@@ -171,7 +148,7 @@ Useful for debugging or scripting.
 echo  "Hello, World!"
 Hello world!
 ```
-
+![Image](./F519.png)
 ---
 
 ### `whoami` – Show Current User
@@ -179,9 +156,9 @@ Hello world!
 ```bash
 whoami
 
-SWASTIK SUHANE
+mayank13
 ```
-
+![Image](./F520.png)
 ---
 
 ### `man` – Manual for Any Command
@@ -189,6 +166,7 @@ SWASTIK SUHANE
 ```bash
 man ls
 ```
+![Image](./F521.png)
 ---
 
 ## ✅ 5. **Searching and Finding**
@@ -196,14 +174,15 @@ man ls
 ### `find` – Locate Files
 
 ```bash
-find . -name "*.txt"
+find . -name "*newone2.txt"
 ```
+![Image](./F522.png)
 ---
 
 ### `grep` – Search Inside Files
 
 ```bash
-grep "Hii" data.txt
+grep "Hii" newone2.txt
 
 hello my name is none of your thing i dont care
 ```
@@ -226,10 +205,12 @@ hello my name is none of your thing i dont care
 * **Run multiple commands**:
 
 ```bash
-mkdir test && cd test && touch hii.txt
+mkdir newone3 && cd newone3 && touch newone3.txt
 
-hii.txt
+newone3.txt
 ```
+![Image](./F523.png)
+--- 
 
 
 
