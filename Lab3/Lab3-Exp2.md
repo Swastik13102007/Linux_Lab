@@ -1,11 +1,11 @@
-📁 Ultimate Beginner’s Guide to Terminal Commands
+📁 ULTIMATE BEGINNER'S GUIDE TO TERMINAL COMMANDS
 
 For Linux 🐧 | macOS 🍎 | Git Bash (Windows) 🪟
 Master essential terminal commands for navigation, file management, system monitoring, and more! Ideal for beginners diving into coding, Git, or VS Code workflows.
 
 ---
 
-## ✅ 1. 📂 **Navigation Commands**
+## ✅ 1. 📂 **NAVIGATION COMMANDS**
 
 ### 🔹 `pwd` – Print Working Directory
 
