@@ -1,16 +1,15 @@
-# 🐚 Shell Scripting Tutorial!!
+# 🐚✨Shell Scripting Tutorial!! 🚀
 
 Shell scripting allows you to **automate tasks** in Linux/Unix by writing commands inside a file that the shell executes line by line.
 
 ---
 
-## 1. 🔹 What is a Shell Script?
+🔹 1. What is a Shell Script?
+📌 A **shell** is a command-line interpreter (e.g., `bash`, `zsh`, `sh`).
+📌 A **shell script** is a text file with a series of commands.
+📌 File usually has **`.sh`** extension, though not mandatory.
 
-* A **shell** is a command-line interpreter (e.g., `bash`, `zsh`, `sh`).
-* A **shell script** is a text file with a series of commands.
-* File usually has **`.sh`** extension, though not mandatory.
-
-**Example: `1_script.sh`**
+🎬 Example: `1_script.sh`**
 
 File name = "1_script.sh"
 
@@ -19,26 +18,26 @@ File name = "1_script.sh"
 echo "Hello World!"
 ```
 
-Run it:
+▶️ Run it:
 
 ```bash
 chmod +x 1_script.sh   # make it executable
 ./1_script.sh
 ```
 
-Output:
+✅ Output:
 
 ```
 Hello World!
 ```
-![Image](./F1.png)
+ 🖼️ ![Image](./F1.png)
 ---
 
-## 2. 🔹 Variables
+🔹 2. Variables 🎒
 
-Variables store data (text, numbers, paths, etc.).
+📦 Variables store data (text, numbers, paths, etc.).
 
-### Defining variables
+✍️ Defining variables
 
 ```bash
 name="Swastik"
@@ -47,31 +46,31 @@ age=17
 
 ⚠️ No spaces around `=`.
 
-### Accessing variables
+📤 Accessing variables
 
 ```bash
 echo "My name is $name and I am $age years old."
 ```
 
-Output:
+✅ Output:
 
 ```
 My name is Swastik and I am 17 years old.
 ```
 
-### Environment variables
+🌍 Environment variables
 
 ```bash
 echo $HOME   # home directory
 echo $USER   # current user
 echo $PWD    # present working directory
 ```
-![Image](./F2.png)
+🖼️  ![Image](./F2.png)
 
-![Image](./F4.png)
+🖼️  ![Image](./F4.png)
 ---
 
-## 3. 🔹 User Input
+🔹 3. User Input 🎤
 
 Read input from user with `read`.
 
@@ -81,22 +80,22 @@ echo "Enter your favorite language:"
 read lang
 echo "You chose $lang"
 ```
-![Image](./F3.png)
+🖼️  ![Image](./F3.png)
 ---
 
-## 4. 🔹 Conditional Statements (if-else)
+🔹 4. Conditional Statements (if-else) ⚖️
 
 ```bash
 #!/bin/bash
 num=10
 
 if [ $num -gt 5 ]; then
-    echo "Number is greater than 5"
+    echo "Number is greater than 5 ✅"
 else
-    echo "Number is less than or equal to 5"
+    echo "Number is less than or equal to 5 ❌"
 fi
 ```
-Operators:
+🔑Operators:
 
 * `-eq` (equal)
 * `-ne` (not equal)
@@ -105,12 +104,12 @@ Operators:
 * `-ge` (greater or equal)
 * `-le` (less or equal)
 
-![Image](./F5.png)
+🖼️ ![Image](./F5.png)
 ---
 
-## 5. 🔹 Loops
+🔹5. Loops 🔄
 
-### For loop
+🔁 For loop
 
 ```bash
 for i in 1 2 3 4 5
@@ -119,7 +118,7 @@ do
 done
 ```
 
-Or use a range:
+👉 range:
 
 ```bash
 for i in {1..5}
@@ -128,7 +127,7 @@ do
 done
 ```
 
-### While loop
+🔁 While loop
 ```bash
 count=1
 while [ $count -le 5 ]
@@ -138,7 +137,7 @@ do
 done
 ```
 
-### Until loop
+🔁 Until loop
 
 Runs until condition becomes true.
 
@@ -150,39 +149,39 @@ do
     ((x++))
 done
 ```
-![Image](./F8.png)
+🖼️ ![Image](./F8.png)
 
-![Image](./F9.png)
+🖼️ ![Image](./F9.png)
 
-![Image](./F11.png)
+🖼️ ![Image](./F11.png)
 
-![Image](./F12.png)
+🖼️ ![Image](./F12.png)
 ---
 
 
-## 6. 🔹 Functions
+🔹 6. Functions 🛠️
 
 Encapsulate reusable code.
 
 ```bash
 greet() {
-    echo "Hello, $1"
+    echo "Hello, $1 👋"
 }
 
-greet Swastik
-greet World
+greet Swastik 👋
+greet World 🌍
 ```
 
-Output:
+✅ Output:
 
 ```
 Hello, Swastik
 Hello, World
 ```
-![Image](./F6.png)
+🖼️ ![Image](./F6.png) 
 ---
 
-## 7. 🔹 Command Line Arguments
+🔹 7. Command Line Arguments 🎯
 
 Access arguments passed to script:
 
@@ -195,13 +194,13 @@ echo "All arguments: $@"
 echo "Number of arguments: $#"
 ```
 
-Run:
+▶️ Run:
 
 ```bash
 ./1_script.sh apple banana
 ```
 
-Output:
+✅ Output:
 
 ```
 Script name: ./script.sh
@@ -210,10 +209,10 @@ Second argument: banana
 All arguments: apple banana
 Number of arguments: 2
 ```
-![Image](./F7.png)
+🖼️ ![Image](./F7.png)
 ---
 
-## 8. 🔹 Arrays
+🔹 8. Arrays 📚
 
 ```bash
 variable=("V" "A" "B")
@@ -224,24 +223,24 @@ for variable in "${variable[@]}"; do
     echo "variable: $variable"
 done
 ```
-![Image](F99.png)
+🖼️ ![Image](F99.png)
 
-![Image](F98.png)
+🖼️ ![Image](F98.png)
 
-![Image](F97.png)
+🖼️ ![Image](F97.png)
 ---
 
-## 9. 🔹 Useful Commands in Scripts
+🔹 9. Useful Commands in Scripts 🧰 
 
-* `date` → show current date/time
-* `whoami` → show current user
-* `ls` → list files
-* `pwd` → print working directory
-* `cat` → read file contents
+🕒 date → current date/time
+🙋 whoami → current user
+📂 ls → list files
+📍 pwd → working directory
+📖 cat → read file contents
 
 ---
 
-## 10. 🔹 A Practical Example
+🔹 10. A Practical Example 💡
 
 **Backup script (`backup.sh`):**
 
@@ -253,10 +252,10 @@ backup_file="/tmp/home_backup_$(date +%Y%m%d%H%M%S).tar.gz"
 
 tar -czf $backup_file $HOME
 
-echo "Backup saved to $backup_file"
+echo " ✅ Backup saved to $backup_file"
 ```
 
-Run:
+▶️ Run:
 
 ```bash
 ./backup.sh
