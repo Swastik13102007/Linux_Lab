@@ -1,10 +1,10 @@
-# 🐚✨Shell Scripting Tutorial!! 🚀
+# 🐚✨SHELL SCRIPTING TUTORIAL!! 🚀
 
 Shell scripting allows you to **automate tasks** in Linux/Unix by writing commands inside a file that the shell executes line by line.
 
 ---
 
-🔹 1. What is a Shell Script?
+### 🔹 1.** What is a Shell Script?**
 📌 A **shell** is a command-line interpreter (e.g., `bash`, `zsh`, `sh`).
 📌 A **shell script** is a text file with a series of commands.
 📌 File usually has **`.sh`** extension, though not mandatory.
@@ -39,7 +39,7 @@ Hello World!
 
 💡 Tip: Always start your script with #!/bin/bash, so the system knows which interpreter to use.
 
-🔹 2. Variables 🎒
+### 🔹 2. **Variables 🎒**
 
 📦 Variables store data (text, numbers, paths, etc.).
 
@@ -78,7 +78,7 @@ echo $PWD    # 📍 Present working directory
 
 💡 Pro Tip: Use printenv to list all available environment variables.
 
-🔹 3. User Input 🎤
+### 🔹 3. **User Input 🎤**
 
 Read input from user with `read`.
 
@@ -95,7 +95,7 @@ echo "You chose $lang"
 
 ✅ Success: Scripts become interactive when you use read.
 
-🔹 4. Conditional Statements (if-else) ⚖️
+### 🔹 4. **Conditional Statements (if-else) ⚖️**
 
 ```bash
 #!/bin/bash
@@ -123,7 +123,7 @@ fi
 
 🚨 Warning: Always leave spaces inside [ ] in conditions, otherwise the script fails.
 
-🔹5. Loops 🔄
+### 🔹5.**Loops 🔄** 
 
 🔁 For loop
 
@@ -186,7 +186,7 @@ done
 💡 Pro Tip: Use loops for automation like file processing, backups, or bulk renaming.
 
 
-🔹 6. Functions 🛠️
+### 🔹 6. **Functions 🛠️**
 
 Encapsulate reusable code.
 
@@ -212,7 +212,7 @@ Hello, World
 
 ⚡ Note: $1, $2 … are function arguments.
 
-🔹 7. Command Line Arguments 🎯
+### 🔹 7. **Command Line Arguments 🎯**
 
 Access arguments passed to script:
 
@@ -247,7 +247,7 @@ Number of arguments: 2
 
 💡 Pro Tip: $@ expands to all arguments, $# gives argument count.
 
-🔹 8. Arrays 📚
+### 🔹 8. **Arrays 📚**
 
 ```bash
 variable=("V" "A" "B")
@@ -271,7 +271,7 @@ done
 
 ⚠️ Note: Arrays are zero-indexed → first element = ${array[0]}.
 
-🔹 9. Useful Commands in Scripts 🧰 
+### 🔹 9. **Useful Commands in Scripts 🧰**
 
 🕒 date → current date/time
 🙋 whoami → current user
@@ -283,7 +283,7 @@ done
 
 💡 Tip: Use man <command> to open the manual of any command.
 
-🔹 10. A Practical Example 💡
+### 🔹 10.**A Practical Example 🪟** 
 
 **Backup script (`backup.sh`):**
 
