@@ -213,3 +213,56 @@ Number of arguments: 2
 ![Image](./F7.png)
 ---
 
+## 8. 🔹 Arrays
+
+```bash
+variable=("V" "A" "B")
+
+echo "First variable: ${variable[0]}"
+
+for variable in "${variable[@]}"; do
+    echo "variable: $variable"
+done
+```
+![Image](F99.png)
+
+![Image](F98.png)
+
+![Image](F97.png)
+---
+
+## 9. 🔹 Useful Commands in Scripts
+
+* `date` → show current date/time
+* `whoami` → show current user
+* `ls` → list files
+* `pwd` → print working directory
+* `cat` → read file contents
+
+---
+
+## 10. 🔹 A Practical Example
+
+**Backup script (`backup.sh`):**
+
+```bash
+#!/bin/bash
+# Backup home directory to /tmp
+
+backup_file="/tmp/home_backup_$(date +%Y%m%d%H%M%S).tar.gz"
+
+tar -czf $backup_file $HOME
+
+echo "Backup saved to $backup_file"
+```
+
+Run:
+
+```bash
+./backup.sh
+```
+
+---
+
+
+
