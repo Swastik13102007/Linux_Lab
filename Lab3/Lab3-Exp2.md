@@ -42,7 +42,6 @@ Moves into a directory.
 
 ```bash
 cd projects
-mayank13@ubuntu
 ```
 
 ---
