@@ -30,7 +30,11 @@ chmod +x 1_script.sh   # make it executable
 ```
 Hello World!
 ```
- 🖼️ ![Image](./F1.png)
+ 🖼️  ![Image](./F1.png)
+
+  
+ 🖼️  ![Image](./F500.png)
+
 ---
 
 💡 Tip: Always start your script with #!/bin/bash, so the system knows which interpreter to use.
@@ -67,9 +71,9 @@ echo $HOME   # 🏠 Home directory
 echo $USER   # 👤 Current user
 echo $PWD    # 📍 Present working directory
 ```
-🖼️  ![Image](./F2.png)
+🖼️  ![Image](./F501.png)
 
-🖼️  ![Image](./F4.png)
+🖼️  ![Image](./F502.png)
 ---
 
 💡 Pro Tip: Use printenv to list all available environment variables.
@@ -84,7 +88,9 @@ echo "Enter your favorite language:"
 read lang
 echo "You chose $lang"
 ```
-🖼️  ![Image](./F3.png)
+🖼️  ![Image](./F503.png)
+
+🖼️  ![Image](./F504.png)
 ---
 
 ✅ Success: Scripts become interactive when you use read.
@@ -110,7 +116,9 @@ fi
 * `-ge` (greater or equal)
 * `-le` (less or equal)
 
-🖼️ ![Image](./F5.png)
+🖼️ ![Image](./F505.png)
+
+🖼️ ![Image](./F506.png)
 ---
 
 🚨 Warning: Always leave spaces inside [ ] in conditions, otherwise the script fails.
@@ -157,6 +165,15 @@ do
     ((x++))
 done
 ```
+🖼️ ![Image](./F507.png)
+
+🖼️ ![Image](./F508.png)
+
+🖼️ ![Image](./F509.png)
+
+🖼️ ![Image](./F510.png)
+
+
 🖼️ ![Image](./F8.png)
 
 🖼️ ![Image](./F9.png)
@@ -188,7 +205,9 @@ greet World 🌍
 Hello, Swastik
 Hello, World
 ```
-🖼️ ![Image](./F6.png) 
+🖼️ ![Image](./F511.png) 
+
+🖼️ ![Image](./F512.png) 
 ---
 
 ⚡ Note: $1, $2 … are function arguments.
@@ -221,7 +240,9 @@ Second argument: banana
 All arguments: apple banana
 Number of arguments: 2
 ```
-🖼️ ![Image](./F7.png)
+🖼️ ![Image](./F513.png)
+
+🖼️ ![Image](./F514.png)
 ---
 
 💡 Pro Tip: $@ expands to all arguments, $# gives argument count.
@@ -242,6 +263,10 @@ done
 🖼️ ![Image](F98.png)
 
 🖼️ ![Image](F97.png)
+
+🖼️ ![Image](F999.png)
+
+🖼️ ![Image](F1000.png)
 ---
 
 ⚠️ Note: Arrays are zero-indexed → first element = ${array[0]}.
