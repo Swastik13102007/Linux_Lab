@@ -15,7 +15,7 @@ pwd
 📌 Output example:
 
 ```
-mayank13@ubuntu
+/home/mayank13
 ```
 ---
 
