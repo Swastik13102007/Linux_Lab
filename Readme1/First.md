@@ -62,9 +62,9 @@ cp -rv first/second/          # 📂  Copy a folder recursively and verbosel
 🖼️ ![Image](./F525.png)
 ---
 
-══════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
 ## 3️⃣ `touch` – 🆕 Create Empty Files or Update Timestamps
-══════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
 
 💡 **Think of it as "create new file" ➕**  
 
@@ -130,7 +130,7 @@ rm -rf first                   # 💣 Remove the folder and everything inside
 
 ---
 
-══════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════════════
 🌈✨ With these commands, you can manage files like a **Linux Pro Ninja 🥷🐧**!  
 🔥 Practice them in your terminal and you’ll never forget.  
-══════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════════════
