@@ -5,7 +5,7 @@ Here's a Markdown (`.md`) file that documents the basic usage of `rm`, `cp`, and
 ### 📄 File : **file_commands.md**
 
 ````markdown
-# Linux File Commands: `rm`, `cp`, `touch`, `mv`
+   Linux File Commands: `rm`, `cp`, `touch`, `mv`
 
   ## 1. `rm` – **Remove Files or Directories**
 
