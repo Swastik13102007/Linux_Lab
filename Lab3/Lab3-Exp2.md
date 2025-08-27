@@ -44,7 +44,7 @@ Output
 
 
 ```
-![Image](./F515.png)
+🖼️ ![Image](./F515.png)
 
 📌 Common Options:
 
@@ -132,7 +132,7 @@ mv newone2.txt ~/Worksheet/     # Move file
 rm newone2.txt
 rm -r newone
 ```
-![Image](./F516.png)
+🖼️ ![Image](./F516.png)
 
 ⚠️ Warning: There’s no “Recycle Bin” – use cautiously!
 
@@ -154,7 +154,7 @@ Hii how are you
 ```bash
 
 ```
-![Image](./F518.png)
+🖼️ ![Image](./F518.png)
 
 ✨ Great for reading small files directly in terminal.
 
@@ -174,7 +174,7 @@ nano newone2.txt
 ```bash
 clear
 ```
-![Image](./F517.png)
+🖼️ ![Image](./F517.png)
 
 📌 Use CTRL + X to exit, CTRL + O to save.
 
@@ -194,7 +194,7 @@ Useful for debugging or scripting.
 echo  "Hello, World!"
 Hello world!
 ```
-![Image](./F519.png)
+🖼️ ![Image](./F519.png)
 ---
 
 ### 🔹 `whoami` – Show Current User 🙋
@@ -204,7 +204,7 @@ whoami
 
 mayank13
 ```
-![Image](./F520.png)
+🖼️ ![Image](./F520.png)
 ---
 
 ### 🔹 `man` – Manual for Any Command 📚
@@ -212,7 +212,7 @@ mayank13
 ```bash
 man ls
 ```
-![Image](./F521.png)
+🖼️ ![Image](./F521.png)
 
 📌 Use q to quit the manual.
 
@@ -227,7 +227,7 @@ man ls
 ```bash
 find . -name "*newone2.txt"
 ```
-![Image](./F522.png)
+🖼️ ![Image](./F522.png)
 
 🧠 Searches recursively from the current directory.
 
@@ -280,7 +280,7 @@ newone3.txt
 
 
 ```
-![Image](./F523.png)
+🖼️ ![Image](./F523.png)
 --- 
 
 
