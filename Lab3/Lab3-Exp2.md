@@ -24,9 +24,10 @@ pwd
 ```
 /home/mayank13
 ```
----
 
 🪄 Pro Tip: Always use pwd when lost in directories!
+
+---
 
 ### 🔹`ls` – List Directory Contents 📂
 
@@ -45,8 +46,6 @@ Output
 ```
 ![Image](./F515.png)
 
----
-
 📌 Common Options:
 
 1. ls -l → long listing format
@@ -55,7 +54,7 @@ Output
 
 3. ls -lh → human-readable sizes
 
-
+---
 
 sizes
 
@@ -95,9 +94,10 @@ Creates an empty file.
 touch newone.txt
 ```
 📌 Pro Tip: Use mkdir -p folder/subfolder to create nested directories.
----
 
 Useful for quickly generating files to edit later.
+
+---
 
 ### 🔹 `cp` – Copy Files or Directories 📑
 
@@ -111,9 +111,9 @@ cp newone.txt newone2
 cp -r newone newone2
 ```
 
----
-
 📌 -r is needed when copying directories recursively.
+
+---
 
 ### 🔹 `mv` – Move or Rename Files ✂️
 
@@ -133,7 +133,6 @@ rm newone2.txt
 rm -r newone
 ```
 ![Image](./F516.png)
----
 
 ⚠️ Warning: There’s no “Recycle Bin” – use cautiously!
 
@@ -156,9 +155,10 @@ Hii how are you
 
 ```
 ![Image](./F518.png)
----
 
-Great for reading small files directly in terminal.
+✨ Great for reading small files directly in terminal.
+
+---
 
 
 ### 🔹 `nano` – Edit Files in Terminal ✏️
@@ -177,9 +177,10 @@ clear
 ![Image](./F517.png)
 
 📌 Use CTRL + X to exit, CTRL + O to save.
----
 
 ✨ Or simply press CTRL + L
+
+---
 
 ═══════════════════════════════════════
 ## ✅ 4. 👤 **SYSTEM COMMANDS** ⚙️
@@ -212,9 +213,10 @@ mayank13
 man ls
 ```
 ![Image](./F521.png)
----
 
 📌 Use q to quit the manual.
+
+---
 
 ═════════════════════════════════════════════
 ## ✅ 5. 🔍 **SEARCHING AND FINDING** 🕵️
@@ -226,9 +228,10 @@ man ls
 find . -name "*newone2.txt"
 ```
 ![Image](./F522.png)
----
 
 🧠 Searches recursively from the current directory.
+
+---
 
 ### 🔹 `grep` – Search Inside Files 📑
 
@@ -238,9 +241,9 @@ grep "Hii" newone2.txt
 hello my name is none of your thing i dont care
 ```
 
----
-
 🔍 Powerful tool for text filtering or debugging. 🚀
+
+---
 
 ═══════════════════════════════════════
 ## ✅ 6. ⚡ **HELPFUL SHORTCUTS** 🎹
