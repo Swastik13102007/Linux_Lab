@@ -23,12 +23,13 @@ rm [options] file_name
 ### Example:
 
 ```bash
-rm myfile.txt           # Delete a file
-rm -rf myfolder/        # Forcefully delete a folder and everything inside
+rm first.txt         # Delete a file
+rm -rf first        # Forcefully delete a folder and everything inside
 ```
 
 ⚠️ **Warning**: `rm -rf` is a powerful and potentially destructive command. Be cautious using it, especially as root.
 
+![Image](./F526.png)
 ---
 
 ## 2. `cp` – Copy Files and Directories
@@ -47,10 +48,10 @@ cp [options] source destination
 ### Example:
 
 ```bash
-cp file1.txt backup.txt             # Copy a file
-cp -rv myfolder/ backup_folder/    # Copy a folder recursively and verbosely
+cp first.txt second.txt             # Copy a file
+cp -rv first/second/    # Copy a folder recursively and verbosely
 ```
-![Image](./2.png)
+![Image](./F525.png)
 ---
 
 
@@ -65,9 +66,9 @@ touch file_name
 ### Example:
 
 ```bash
-touch newfile.txt     # Creates a new empty file named newfile.txt
+touch first.txt     # Creates a new empty file named first.txt
 ```
-
+[Image](./F524.png)
 ---
 
 ## 4. `mv` – Move or Rename Files
@@ -81,8 +82,8 @@ mv [options] source destination
 ### Example:
 
 ```bash
-mv oldname.txt newname.txt     # Rename a file
-mv myfile.txt folder/          # Move a file to a folder
+mv first.txt first1.txt     # Rename a file
+mv first1.txt second          # Move a file to a folder
 ```
 
 ---
@@ -90,12 +91,12 @@ mv myfile.txt folder/          # Move a file to a folder
 ## Simple Workflow Example
 
 ```bash
-touch hello.txt                # Create a new file
-cp hello.txt copy.txt          # Make a copy of the file
-mv copy.txt folder/            # Move the copy into a folder
-rm -rf folder/                 # Remove the folder and everything inside
+touch first.txt                # Create a new file
+cp first.txt second.txt        # Make a copy of the file
+mv first1.txt second           # Move the copy into a folder
+rm -rf first                   # Remove the folder and everything inside
 ```
-
+[Image](./F527.png)
 ---
 
 ## Summary Table
