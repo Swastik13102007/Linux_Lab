@@ -45,3 +45,5 @@ This will help you **navigate**, **explore**, and **master** the basics of Linux
 🖼️ ![Image](./F531.png)
 
 ---
+
+🔥 CONGRAULATIONS! YOU HAVE LEARNT BASIC LINUX COMMANDS.
