@@ -38,9 +38,9 @@ Hello World!
   
  🖼️  ![Image](./F500.png)
 
----
-
 💡 Tip: Always start your script with #!/bin/bash, so the system knows which interpreter to use.
+
+---
 
 ═════════════════════════════
 ### 🔹 2. **Variables 🎒**
@@ -79,9 +79,10 @@ echo $PWD    # 📍 Present working directory
 🖼️  ![Image](./F501.png)
 
 🖼️  ![Image](./F502.png)
----
 
 💡 Pro Tip: Use printenv to list all available environment variables.
+
+---
 
 ══════════════════════════════
 ### 🔹 3. **User Input 🎤**
@@ -98,9 +99,10 @@ echo "You chose $lang"
 🖼️  ![Image](./F503.png)
 
 🖼️  ![Image](./F504.png)
----
 
 ✅ Success: Scripts become interactive when you use read.
+
+---
 
 ══════════════════════════════════════════════════
 ### 🔹 4. **Conditional Statements (if-else) ⚖️**
@@ -128,9 +130,10 @@ fi
 🖼️ ![Image](./F505.png)
 
 🖼️ ![Image](./F506.png)
----
 
 🚨 Warning: Always leave spaces inside [ ] in conditions, otherwise the script fails.
+
+---
 
 ═══════════════════════
 ### 🔹5.**Loops 🔄** 
@@ -192,9 +195,10 @@ done
 🖼️ ![Image](./F11.png)
 
 🖼️ ![Image](./F12.png)
----
 
 💡 Pro Tip: Use loops for automation like file processing, backups, or bulk renaming.
+
+---
 
 ═════════════════════════════
 ### 🔹 6. **Functions 🛠️**
@@ -220,9 +224,10 @@ Hello, World
 🖼️ ![Image](./F511.png) 
 
 🖼️ ![Image](./F512.png) 
----
 
 ⚡ Note: $1, $2 … are function arguments.
+
+---
 
 ═══════════════════════════════════════════
 ### 🔹 7. **Command Line Arguments 🎯**
@@ -257,9 +262,10 @@ Number of arguments: 2
 🖼️ ![Image](./F513.png)
 
 🖼️ ![Image](./F514.png)
----
 
 💡 Pro Tip: $@ expands to all arguments, $# gives argument count.
+
+---
 
 ════════════════════════════
 ### 🔹 8. **Arrays 📚**
@@ -283,9 +289,10 @@ done
 🖼️ ![Image](F999.png)
 
 🖼️ ![Image](F1000.png)
----
 
 ⚠️ Note: Arrays are zero-indexed → first element = ${array[0]}.
+
+---
 
 ══════════════════════════════════════════════
 ### 🔹 9. **Useful Commands in Scripts 🧰**
@@ -297,9 +304,9 @@ done
 📍 pwd → working directory
 📖 cat → read file contents
 
----
-
 💡 Tip: Use man <command> to open the manual of any command.
+
+---
 
 ════════════════════════════════════════
 ### 🔹 10.**A Practical Example 🪟** 
