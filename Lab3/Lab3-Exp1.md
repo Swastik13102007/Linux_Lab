@@ -3,7 +3,10 @@
 Welcome to your **Linux Cheatsheet**!  
 This will help you **navigate**, **explore**, and **master** the basics of Linux like a true 🧑‍💻 hacker.  
 
+
+══════════════════════════════════════════════
 ## 📂 1. Print Working Directory – `pwd`
+══════════════════════════════════════════════
 
 ```bash
 >> pwd
@@ -19,7 +22,9 @@ This will help you **navigate**, **explore**, and **master** the basics of Linux
 🖼️ ![Image](./F528.png)
 ---
 
+══════════════════════════════════════════════
 ## 📜 2. List Files & Folders – `ls`  
+══════════════════════════════════════════════
 
 ```bash
 >> ls -a
