@@ -128,7 +128,6 @@ rm -rf first                   # 💣 Remove the folder and everything inside
 | 📦 `mv`    | Move/rename files ✂️        | `mv first.txt first1.txt`   | 🚚🔄 |
 
 
-
 ---
 
 ══════════════════════════════════════════════════
