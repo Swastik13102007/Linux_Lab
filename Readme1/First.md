@@ -120,14 +120,13 @@ rm -rf first                   # 💣 Remove the folder and everything inside
 ## 📊 **Summary Table** 🎉
 ══════════════════════════════════════════════════
 
-╔════════════╦══════════════════════════════╦═══════════════════════════╦══════════╗
-║ 🖥️ Command ║ 🎯 Purpose                  ║ ⚡ Example               ║🔖Sticker║
-╠════════════╬══════════════════════════════╬═══════════════════════════╬══════════╣
-║ ❌ rm      ║ Remove files/folders 🗑️      ║ rm -rf first               ║ 💣🔥   ║
-║ 📑 cp      ║ Copy files/folders 🪞        ║ cp -rv first/second/       ║ 📂✨   ║
-║ 🆕 touch   ║ Create empty files ➕        ║ touch first.txt            ║ 📝⭐   ║
-║ 📦 mv      ║ Move/rename files ✂️         ║ mv first.txt first1.txt    ║ 🚚🔄   ║
-╚════════════╩══════════════════════════════╩═══════════════════════════╩══════════╝
+| 🖥️ Command | 🎯 Purpose                  | ⚡ Example                  | 🔖 Sticker |
+|------------|------------------------------|-----------------------------|------------|
+| ❌ `rm`    | Remove files/folders 🗑️     | `rm -rf first`              | 💣🔥 |
+| 📑 `cp`    | Copy files/folders 🪞       | `cp -rv first/second/`      | 📂✨ |
+| 🆕 `touch` | Create empty files ➕       | `touch first.txt`           | 📝⭐ |
+| 📦 `mv`    | Move/rename files ✂️        | `mv first.txt first1.txt`   | 🚚🔄 |
+
 
 
 ---
