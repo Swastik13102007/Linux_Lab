@@ -68,7 +68,7 @@ touch file_name
 ```bash
 touch first.txt     # Creates a new empty file named first.txt
 ```
-[Image](./F524.png)
+![Image](./F524.png)
 ---
 
 ## 4. `mv` – Move or Rename Files
@@ -85,7 +85,7 @@ mv [options] source destination
 mv first.txt first1.txt     # Rename a file
 mv first1.txt second          # Move a file to a folder
 ```
-
+![Image](./F527.png)
 ---
 
 ## Simple Workflow Example
@@ -96,7 +96,7 @@ cp first.txt second.txt        # Make a copy of the file
 mv first1.txt second           # Move the copy into a folder
 rm -rf first                   # Remove the folder and everything inside
 ```
-[Image](./F527.png)
+
 ---
 
 ## Summary Table
