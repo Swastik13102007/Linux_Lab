@@ -2,14 +2,14 @@ Here's a Markdown (`.md`) file that documents the basic usage of `rm`, `cp`, and
 
 ---
 
-### 📄 File: `file_commands.md`
+### 📄 File 1: **file_commands.md**
 
 ````markdown
 # Linux File Commands: `rm`, `cp`, `touch`, `mv`
 
-### 1. `rm` – **Remove Files or Directories**
+ 1. `rm` – **Remove Files or Directories**
 
-### Syntax:
+ Syntax:
 ```bash
 rm [options] file_name
 ````
