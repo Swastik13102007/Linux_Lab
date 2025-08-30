@@ -1,10 +1,6 @@
 # 🐚✨ Shell Tutorial 
 🔐 File Permissions with chmod and chown
 
-════════════════════════════════════════════════
-   📂 Learn Linux Permissions the Fun Way 🎭 
-════════════════════════════════════════════════
-
 ---
 ════════════════════════════════════════════════════════
 ## 🔹 1. 🎭 Understanding File Permissions in Linux
