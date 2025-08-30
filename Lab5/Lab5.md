@@ -5,14 +5,14 @@
 
 ---
 
-## 2. Creating Your First Shell Script
+## 1. Creating Your First Shell Script
 
 1. Open a terminal and create a file:
 
    ```bash
-     nano qwerty.txt
+     nano Lab5.txt
    ```
-![Image](./abc.png)
+![Image](./F535.png)
    ---
 
 2. Add the following content:
@@ -23,7 +23,9 @@
 
    echo "Hii, World!"
    ```
-   ![Image](./xyz.png)
+   
+
+    ![Image](./F533.png)
 
    ---
 
@@ -32,26 +34,29 @@
 4. Make it executable:
 
    ```bash
-   chmod +x qwerty.txt
+   chmod +x Lab5.txt
    ```
-![Image](./asd.png)
+
+![Image](./F536.png)
    --- 
 
    5. Run it:
 
    ```bash
-   ./qwerty.txt
+   ./Lab5.txt
    ```
+![Image](./F537.png)
+   --- 
 
 ✅ Output should be:
 
 ```
 Hii, World!
 ```
-![Image](./98.png)
+![Image](./F534.png)
 ---
 
-## 3. Variables in Shell
+## 2. Variables in Shell
 
 You can store data in variables:
 
@@ -70,11 +75,13 @@ echo "I am 17 years old"
 
 ⚠️ Note: **No spaces** around `=` when assigning values.
 
-![Image](./13.png)
+![Image](./F538.png)
+
+![Image](./F539.png)
 
 ---
 
-## 4. Taking User Input
+## 3. Taking User Input
 
 ```bash
 #!/bin/bash
@@ -88,12 +95,12 @@ echo "Hii, swastik! Welcome to shell scripting."
 * `read` → takes input from the user.
 * `$username` → retrieves the value.
 
-![Image](./789.png)
+![Image](./F540.png)
 
-![Image](./1qa.png)
+![Image](./F541.png)
 ---
 
-## 5. Conditional Statements (if-else)
+## 4. Conditional Statements (if-else)
 
 ```bash
 #!/bin/bash
@@ -112,7 +119,9 @@ fi
 * `-gt` → greater than.
 * Other operators: `-lt` (less than), `-eq` (equal).
 
+![Image](./F542.png)
 
+![Image](./F543.png)
 
 ---
 
