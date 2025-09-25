@@ -7,7 +7,7 @@ u → show user/owner of process
 x → show processes not attached to a terminal
 Example Output:
 
-![Image](../25_1.png)
+![Image](./25_1.png)
 
 ---
 
@@ -15,7 +15,7 @@ Example Output:
 
 command - pstree -p
 
-![Image](../25_2.png)
+![Image](./25_2.png)
 
 👉 Shows parent-child process relationships.
 
@@ -25,7 +25,7 @@ command - pstree -p
 
 command - top
 
-![Image](../25_3.png)
+![Image](./25_3.png)
 
 👉 Press q to quit.
 
@@ -37,9 +37,9 @@ Start a process with low priority: nice -n 10 sleep 300 &
 
 renice -n -5 -p 3050
 
-![Image](../25_4.png)
+![Image](./25_4.png)
 
-![Image](../25_13.png)
+![Image](./25_13.png)
 
 
 👉 Now process runs with higher priority.
@@ -49,7 +49,7 @@ renice -n -5 -p 3050
 
 command - taskset -cp 3050
 
-![Image](../25_5.png)
+![Image](./25_5.png)
 
 ---
 
@@ -57,7 +57,7 @@ command - taskset -cp 3050
 
 command - ionice -c 3 -p 3050
 
-![Image](../25_6.png)
+![Image](./25_6.png)
 
 👉 Class 3 (idle) → Process only gets I/O when system is idle.
 
@@ -69,7 +69,7 @@ Command:
 lsof -p 3050 | head -5
 
 
-![Image](../25_7.png)
+![Image](./25_7.png)
 ---
 
 ## 🐛 8. Trace System Calls of a Process
@@ -77,7 +77,7 @@ lsof -p 3050 | head -5
 Command:
 strace -p 3050
 
-![Image](../25_8.png)
+![Image](./25_8.png)
 
 👉 Great for debugging.
 
@@ -88,7 +88,7 @@ strace -p 3050
 Command:
 sudo fuser -n tcp 8080
 
-![Image](../25_9.png)
+![Image](./25_9.png)
 
 👉 PID 4321 is using port 8080.
 
@@ -99,7 +99,7 @@ sudo fuser -n tcp 8080
 Command:
 pidstat -p 3050 2 3
 
-![Image](../25_10.png)
+![Image](./25_10.png)
 
 👉 Shows CPU usage every 2 seconds, 3 times.
 
@@ -109,7 +109,7 @@ pidstat -p 3050 2 3
 
 Create a new cgroup:
 
-![Image](../25_12.png)
+![Image](./25_12.png)
 
 ---
 
