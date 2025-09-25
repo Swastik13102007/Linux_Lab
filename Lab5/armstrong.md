@@ -123,4 +123,7 @@ n
 
 The program successfully verifies Armstrong numbers for any number of digits.
 
+
+
+
 ---

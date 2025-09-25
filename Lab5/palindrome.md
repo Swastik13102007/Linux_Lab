@@ -62,7 +62,6 @@ Compare reversed number with the original.
 Print result ✅ or ❌.
 
 
-
 ![Image](./table.png)
 
 ![Image](./f1.png)
