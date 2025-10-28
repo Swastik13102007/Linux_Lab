@@ -27,12 +27,12 @@ sudo apt install magic-wormhole
 2. Send the file using wormhole:
 
    ```bash
-   sender send reciever
+   wormhole send file.sh
    ```
 3. You’ll see a code appear, like this 👇
 
    ```
-   sender code is: -----
+   Wormhole code is: 9-night-bird
    ```
 
 ✨ Keep this terminal open until the receiver finishes downloading!
@@ -44,7 +44,7 @@ sudo apt install magic-wormhole
 1. In your terminal, type:
 
    ```bash
-   reciver receive ----
+   wormhole receive 9-night-bird
    ```
 
    
@@ -94,9 +94,13 @@ Then run it:
 
 # RECEIVER'S LINUX SCREEN :
 
+![alt text](image-14.png)
 
+![alt text](image-15.png)
 
 # SENDER'S LINUX SCREEN :
+
+![alt text](image-16.png)
 
 
 
