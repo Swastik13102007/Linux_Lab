@@ -17,7 +17,7 @@ sudo apt install magic-wormhole
 
 ---
 
-## 👩‍💻 Step 2: Sender Side (Dhriti-D)
+## 👩‍💻 Step 2: Sender Side 
 
 1. Go to the folder where your file is located (in this case, `home`):
 
@@ -97,6 +97,122 @@ Then run it:
 
 
 # SENDER'S LINUX SCREEN :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
